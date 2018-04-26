@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+  
+  <tocitem text="Cines Cimera" target="Default_En" />
+  <tocitem text="Purchase Procedure" >
+  	<tocitem text="Choose movie" target="PeliculaStep1_en" />
+  	<tocitem text="Choose Date and Time" target="SesionStep1_en" />
+	<tocitem text="Choose seating" target="ButacaStep1_en" />
+	<tocitem text="Buy more tickets" target="MasCosasStep1_en" />
+	<tocitem text="Pay the purchase" target="PagarStep1_en" />
+  </tocitem>
+  <tocitem text="Guided Help" target="Step1_en" />
+
+</toc>

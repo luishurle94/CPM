@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+
+<index version="1.0">
+
+  <indexitem text="buy more tickets" target="MasCosasStep1" />
+  <indexitem text="cines cimera" target="Default" />
+  <indexitem text="choose date and time" target="SesionStep1" />
+  <indexitem text="choose movie" target="PeliculaStep1" />
+  <indexitem text="choose seating" target="ButacaStep1" />
+  <indexitem text="guided help" target="Step1" />
+  <indexitem text="pay the purchase" target="PagarStep1" />
+  <indexitem text="purchase procedure" >
+  	<indexitem text="buy more tickets" target="MasCosasStep1" />
+	<indexitem text="choose date and time" target="SesionStep1" />
+	<indexitem text="choose movie" target="PeliculaStep1" />
+        <indexitem text="choose seating" target="ButacaStep1" />
+        <indexitem text="pay the purchase" target="PagarStep1" />
+  </indexitem>
+    
+</index>

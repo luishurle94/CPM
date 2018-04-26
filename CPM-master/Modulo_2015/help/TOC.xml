@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+  
+  <tocitem text="Reserva de crucero" target="introduccion" />
+  <tocitem text="Manejo de la aplicación" >
+	<tocitem text="Opciones" target="opciones" />
+  	<tocitem text="Navegabilidad" target="navegabilidad" /> 
+  </tocitem> 
+  <tocitem text="Inicio" target="pnInicio" />
+  <tocitem text="Lista Cruceros" target="pnListaCruceros" />
+  <tocitem text="Detalles" >
+  	<tocitem text="Detalles Crucero" target="pnDetallesCrucero" />
+  	<tocitem text="Detalles Barco" target="ventanaDetalleBarco" />
+  </tocitem>
+  <tocitem text="Pasajeros" >
+	<tocitem text="Lista de pasajero" target="pnPasajeros" />
+  	<tocitem text="Añadir pasajero" target="ventanaAñadirPasajero" />
+  </tocitem>
+  <tocitem text="Camarotes" >
+	<tocitem text="Lista de camarotes" target="pnCamarotes" />
+  	<tocitem text="Añadir camarote" target="ventanaAñadirCamarote" />
+  	<tocitem text="Descuento en camarotes" target="descuentoCamarotes" />
+  </tocitem>
+  <tocitem text="Asignar nombre a la reserva" target="ventanaAsignar" />
+  <tocitem text="Resumen" target="pnResumen" />
+  <tocitem text="Fin" target="pnFin" />
+
+</toc>

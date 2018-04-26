@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<index version="1.0">
+	<indexitem text="Asignar nombre a la reserva" target="ventanaAsignar" />
+	<indexitem text="Camarotes">
+		<indexitem text="Lista de camarotes" target="pnCamarotes" />
+		<indexitem text="Añadir camarote" target="ventanaAñadirCamarote" />
+	</indexitem>
+	<indexitem text="Detalles">
+		<indexitem text="Detalles Crucero" target="pnDetallesCrucero" />
+		<indexitem text="Detalles Barco" target="ventanaDetalleBarco" />
+	</indexitem>
+	<indexitem text="Descuento Camarotes" target="descuentoCamarotes" />
+	<indexitem text="Fin" target="pnFin" />
+	<indexitem text="Inicio" target="pnInicio" />
+	<indexitem text="Lista Cruceros" target="pnListaCruceros" />
+	<indexitem text="Manejo de la aplicación">
+		<indexitem text="Opciones" target="opciones" />
+		<indexitem text="Navegabilidad" target="navegabilidad" />
+	</indexitem>
+	<indexitem text="Pasajeros">
+		<indexitem text="Lista de pasajero" target="pnPasajeros" />
+		<indexitem text="Añadir pasajero" target="ventanaAñadirPasajero" />
+	</indexitem>
+	<indexitem text="Reserva de crucero" target="introduccion" />
+	<indexitem text="Resumen" target="pnResumen" />
+
+</index>

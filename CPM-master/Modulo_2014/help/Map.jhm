@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+<mapID target="Default" url="Fuentes/Default.html" />
+<mapID target="SobreAzur" url="Fuentes/SobreAzur.html" />
+<mapID target="ButacaStep1" url="Fuentes/GuidedHelp/ButacaStep1.html" />
+<mapID target="Final" url="Fuentes/GuidedHelp/Final.html" />
+<mapID target="Language" url="Fuentes/GuidedHelp/Language.html" />
+<mapID target="MasCosasStep1" url="Fuentes/GuidedHelp/MasCosasStep1.html" />
+<mapID target="PagarStep1" url="Fuentes/GuidedHelp/PagarStep1.html" />
+<mapID target="PeliculaStep1" url="Fuentes/GuidedHelp/PeliculaStep1.html" />
+<mapID target="SesionStep1" url="Fuentes/GuidedHelp/SesionStep1.html" />
+<mapID target="Step1" url="Fuentes/GuidedHelp/Step1.html" />
+
+</map>

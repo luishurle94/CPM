@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+	<mapID target="introduccion" url="Fuentes/introduccion.html" />
+	<mapID target="navegabilidad" url="Fuentes/introduccion.html" />
+	<mapID target="opciones" url="Fuentes/opciones.html" />
+	<mapID target="pnCamarotes" url="Fuentes/pnCamarotes.html" />
+	<mapID target="pnDetallesCrucero" url="Fuentes/pnDetallesCrucero.html" />
+	<mapID target="pnFin" url="Fuentes/pnFin.html" />
+	<mapID target="pnInicio" url="Fuentes/pnInicio.html" />
+	<mapID target="pnListaCruceros" url="Fuentes/pnListaCruceros.html" />
+	<mapID target="pnPasajeros" url="Fuentes/pnPasajeros.html" />
+	<mapID target="pnResumen" url="Fuentes/pnResumen.html" />
+	<mapID target="ventanaAñadirCamarote" url="Fuentes/ventanaAñadirCamarote.html" />
+	<mapID target="ventanaAñadirPasajero" url="Fuentes/ventanaAñadirPasajero.html" />
+	<mapID target="ventanaAsignar" url="Fuentes/ventanaAsignar.html" />
+	<mapID target="ventanaDetalleBarco" url="Fuentes/ventanaDetalleBarco.html" />
+	<mapID target="descuentoCamarotes" url="Fuentes/descuentoCamarotes.html" />
+
+</map>
