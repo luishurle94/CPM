@@ -15,6 +15,10 @@ import java.awt.Toolkit;
 import java.awt.GridLayout;
 import javax.swing.JRadioButton;
 import javax.swing.JButton;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class MainWindow extends JFrame {
 
@@ -33,9 +37,11 @@ public class MainWindow extends JFrame {
 	private JRadioButton rdbtnRaras;
 	private JRadioButton rdbtnPocoComunes;
 	private ButtonGroup botones = new ButtonGroup();
-	private JButton button;
-	private JButton button_1;
-	private JButton btnNewButton;
+	private JButton btnSkins;
+	private JButton btnArmas;
+	private JButton btnPaquete;
+	private JTextField txBuscador;
+	private Catalogue catalogue;
 
 	/**
 	 * Launch the application.
@@ -44,7 +50,7 @@ public class MainWindow extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Catalogue catalogue = new Catalogue();
+
 					MainWindow frame = new MainWindow();
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -58,6 +64,7 @@ public class MainWindow extends JFrame {
 	 * Create the frame.
 	 */
 	public MainWindow() {
+		catalogue = new Catalogue();
 		setTitle("Tienda de Fortnite");
 		setIconImage(Toolkit.getDefaultToolkit().getImage(
 				MainWindow.class.getResource("/img/Fortnite-logo.jpg")));
@@ -103,9 +110,9 @@ public class MainWindow extends JFrame {
 		if (pnBotones == null) {
 			pnBotones = new JPanel();
 			pnBotones.setLayout(new GridLayout(0, 1, 0, 0));
-			pnBotones.add(getButton());
-			pnBotones.add(getButton_1());
-			pnBotones.add(getBtnNewButton());
+			pnBotones.add(getBtnSkins());
+			pnBotones.add(getBtnArmas());
+			pnBotones.add(getBtnPaquete());
 		}
 		return pnBotones;
 	}
@@ -128,6 +135,7 @@ public class MainWindow extends JFrame {
 	private JPanel getPanel_2_1() {
 		if (pnBuscador == null) {
 			pnBuscador = new JPanel();
+			pnBuscador.add(getTxBuscador());
 		}
 		return pnBuscador;
 	}
@@ -183,22 +191,49 @@ public class MainWindow extends JFrame {
 		}
 		return rdbtnPocoComunes;
 	}
-	private JButton getButton() {
-		if (button == null) {
-			button = new JButton("1");
+
+	private JButton getBtnSkins() {
+		if (btnSkins == null) {
+			btnSkins = new JButton("Skins");
+			btnSkins.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+					catalogue.getSkins();
+				}
+			});
 		}
-		return button;
+		return btnSkins;
 	}
-	private JButton getButton_1() {
-		if (button_1 == null) {
-			button_1 = new JButton("2");
+
+	private JButton getBtnArmas() {
+		if (btnArmas == null) {
+			btnArmas = new JButton("Armas");
+			btnArmas.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+					catalogue.getWeapons();
+				}
+			});
 		}
-		return button_1;
+		return btnArmas;
 	}
-	private JButton getBtnNewButton() {
-		if (btnNewButton == null) {
-			btnNewButton = new JButton("New button");
+
+	private JButton getBtnPaquete() {
+		if (btnPaquete == null) {
+			btnPaquete = new JButton("Paquetes");
+			btnPaquete.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+					catalogue.getPacks();
+				}
+			});
 		}
-		return btnNewButton;
+		return btnPaquete;
+	}
+
+	private JTextField getTxBuscador() {
+		if (txBuscador == null) {
+			txBuscador = new JTextField();
+			txBuscador.setText("Busque aquí..");
+			txBuscador.setColumns(10);
+		}
+		return txBuscador;
 	}
 }
